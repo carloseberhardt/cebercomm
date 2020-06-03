@@ -1,4 +1,45 @@
 ---
 label: product
 hide_body: true
-fields: []
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: id
+  description: product id
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+  description: product name
+- name: price
+  type: number
+  label: price
+  default: 0
+  required: true
+  config:
+    min: 0
+    max: 
+    step: 0.01
+    required: true
+  description: each price
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+  description: product description
+- name: image_
+  type: file
+  config:
+    maxSize: 64
+  label: "image\t"
+  description: product image
+- name: product_url
+  type: text
+  config:
+    required: false
+  label: product_url
+  description: product url
