@@ -55,7 +55,12 @@ fields:
   description: long description
 pages:
 - content/products/barn_owl.md
+- content/products/barn_owl.md
+- content/products/barred_owl.md
 - content/products/barred_owl.md
 - content/products/boreal_owl.md
+- content/products/boreal_owl.md
 - content/products/burrowing_owl.md
+- content/products/burrowing_owl.md
+- content/products/eastern_screech_owl.md
 - content/products/eastern_screech_owl.md
