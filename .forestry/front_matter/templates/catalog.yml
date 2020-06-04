@@ -1,4 +1,33 @@
 ---
 label: catalog
 hide_body: false
-fields: []
+fields:
+- name: catalog_id
+  type: text
+  config:
+    required: false
+  label: catalog id
+  description: The catalog id
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+  description: Short Description for the catalog
+- name: long_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  description: Long Description for the catalog
+  label: long description
+- name: product_id
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: product id
