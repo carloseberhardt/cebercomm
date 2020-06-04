@@ -5,7 +5,7 @@ id = "barn_owl"
 image = "/uploads/1barnowl.jpg"
 name = "Barn Owl"
 price = 100
-product_url = ""
+product_url = "/"
 short_description = ""
 
 +++
