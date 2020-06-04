@@ -1,7 +1,6 @@
 ---
 label: catalog
 hide_body: true
-display_field: description
 fields:
 - name: catalog_id
   type: text
