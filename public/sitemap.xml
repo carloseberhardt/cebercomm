@@ -3,15 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/products/bigcheesewheel/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/products/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/tags/</loc>
   </url>
   
 </urlset>
