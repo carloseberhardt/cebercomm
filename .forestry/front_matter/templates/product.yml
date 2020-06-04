@@ -54,4 +54,5 @@ fields:
   label: description
   description: long description
 pages:
+- content/products/barn_owl.md
 - content/products/bigcheesewheel.md
