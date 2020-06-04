@@ -24,10 +24,23 @@ fields:
       format: markdown
   description: Long Description for the catalog
   label: long description
-- name: product_id
+- name: products
   type: field_group_list
+  fields:
+  - name: product
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: products
+        file: 
+        path: 
+    label: product
   config:
     min: 
     max: 
     labelField: 
-  label: product id
+  label: products
