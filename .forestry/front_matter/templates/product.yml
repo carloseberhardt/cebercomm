@@ -25,12 +25,12 @@ fields:
     step: 0.01
     required: true
   description: each price
-- name: description
+- name: short_description
   type: text
   config:
     required: false
-  label: description
-  description: product description
+  label: short description
+  description: product short description
 - name: image
   type: file
   config:
@@ -43,5 +43,15 @@ fields:
     required: false
   label: product_url
   description: product url
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+  description: long description
 pages:
 - content/products/bigcheesewheel.md
