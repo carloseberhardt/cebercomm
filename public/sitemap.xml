@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pedantic-poincare-ee6413.netlify.app/products/bigcheesewheel/</loc>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/catalogs/owls/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/products/barn_owl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/products/barred_owl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/products/boreal_owl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/products/burrowing_owl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/products/eastern_screech_owl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pedantic-poincare-ee6413.netlify.app/catalogs/</loc>
   </url>
   
   <url>
