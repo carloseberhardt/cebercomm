@@ -5,5 +5,7 @@ draft = true
 long_description = "These are the owls"
 [[products]]
 product = "products/barn_owl.md"
+[[products]]
+product = "products/barn_owl.md"
 
 +++
