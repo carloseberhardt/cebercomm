@@ -1,0 +1,438 @@
+---
+sys:
+  type: Array
+total: 6
+skip: 0
+limit: 100
+items:
+  - sys:
+      space:
+        sys:
+          type: Link
+          linkType: Space
+          id: 01qz659nriln
+      id: variant
+      type: ContentType
+      createdAt: '2020-05-26T20:32:54.886Z'
+      updatedAt: '2020-05-26T20:32:55.131Z'
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      publishedVersion: 1
+      publishedAt: '2020-05-26T20:32:55.131Z'
+      firstPublishedAt: '2020-05-26T20:32:55.131Z'
+      createdBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      updatedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      publishedCounter: 1
+      version: 2
+      publishedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+    displayField: name
+    name: Variant
+    description:
+    fields:
+      - id: name
+        name: Name
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: code
+        name: Code
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: description
+        name: Description
+        type: Text
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: image
+        name: Image
+        type: Link
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        linkType: Asset
+      - id: size
+        name: Size
+        type: Link
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        linkType: Entry
+  - sys:
+      space:
+        sys:
+          type: Link
+          linkType: Space
+          id: 01qz659nriln
+      id: size
+      type: ContentType
+      createdAt: '2020-05-26T20:32:54.184Z'
+      updatedAt: '2020-05-26T20:32:54.599Z'
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      publishedVersion: 1
+      publishedAt: '2020-05-26T20:32:54.599Z'
+      firstPublishedAt: '2020-05-26T20:32:54.599Z'
+      createdBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      updatedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      publishedCounter: 1
+      version: 2
+      publishedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+    displayField: name
+    name: Size
+    description:
+    fields:
+      - id: name
+        name: Name
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+  - sys:
+      space:
+        sys:
+          type: Link
+          linkType: Space
+          id: 01qz659nriln
+      id: product
+      type: ContentType
+      createdAt: '2020-05-26T20:32:53.477Z'
+      updatedAt: '2020-05-26T20:32:53.853Z'
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      publishedVersion: 1
+      publishedAt: '2020-05-26T20:32:53.853Z'
+      firstPublishedAt: '2020-05-26T20:32:53.853Z'
+      createdBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      updatedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      publishedCounter: 1
+      version: 2
+      publishedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+    displayField: name
+    name: Product
+    description:
+    fields:
+      - id: name
+        name: Name
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: reference
+        name: Reference
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: variants
+        name: Variants
+        type: Array
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        items:
+          type: Link
+          validations: []
+          linkType: Entry
+      - id: image
+        name: Image
+        type: Link
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        linkType: Asset
+      - id: description
+        name: Description
+        type: Text
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+  - sys:
+      space:
+        sys:
+          type: Link
+          linkType: Space
+          id: 01qz659nriln
+      id: country
+      type: ContentType
+      createdAt: '2020-05-26T20:32:52.717Z'
+      updatedAt: '2020-05-26T20:32:53.095Z'
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      publishedVersion: 1
+      publishedAt: '2020-05-26T20:32:53.095Z'
+      firstPublishedAt: '2020-05-26T20:32:53.095Z'
+      createdBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      updatedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      publishedCounter: 1
+      version: 2
+      publishedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+    displayField: name
+    name: Country
+    description:
+    fields:
+      - id: name
+        name: Name
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: code
+        name: Code
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: catalogue
+        name: Catalogue
+        type: Link
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        linkType: Entry
+      - id: defaultLocale
+        name: Default locale
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: market_id
+        name: Market ID
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+  - sys:
+      space:
+        sys:
+          type: Link
+          linkType: Space
+          id: 01qz659nriln
+      id: category
+      type: ContentType
+      createdAt: '2020-05-26T20:32:51.686Z'
+      updatedAt: '2020-05-26T20:32:52.204Z'
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      publishedVersion: 1
+      publishedAt: '2020-05-26T20:32:52.204Z'
+      firstPublishedAt: '2020-05-26T20:32:52.204Z'
+      createdBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      updatedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      publishedCounter: 1
+      version: 2
+      publishedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+    displayField: name
+    name: Category
+    description:
+    fields:
+      - id: name
+        name: Name
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: image
+        name: Image
+        type: Link
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        linkType: Asset
+      - id: products
+        name: Products
+        type: Array
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        items:
+          type: Link
+          validations: []
+          linkType: Entry
+      - id: products_it
+        name: Products (IT)
+        type: Array
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        items:
+          type: Link
+          validations: []
+          linkType: Entry
+  - sys:
+      space:
+        sys:
+          type: Link
+          linkType: Space
+          id: 01qz659nriln
+      id: catalogue
+      type: ContentType
+      createdAt: '2020-05-26T20:32:50.878Z'
+      updatedAt: '2020-05-26T20:32:51.378Z'
+      environment:
+        sys:
+          id: master
+          type: Link
+          linkType: Environment
+      publishedVersion: 1
+      publishedAt: '2020-05-26T20:32:51.378Z'
+      firstPublishedAt: '2020-05-26T20:32:51.378Z'
+      createdBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      updatedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+      publishedCounter: 1
+      version: 2
+      publishedBy:
+        sys:
+          type: Link
+          linkType: User
+          id: 1NkmeyJWew596YKf32IKJI
+    displayField: name
+    name: Catalogue
+    description:
+    fields:
+      - id: name
+        name: Name
+        type: Symbol
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+      - id: categories
+        name: Categories
+        type: Array
+        localized: false
+        required: false
+        validations: []
+        disabled: false
+        omitted: false
+        items:
+          type: Link
+          validations: []
+          linkType: Entry
