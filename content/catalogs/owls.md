@@ -4,7 +4,7 @@ description = "Owls"
 draft = true
 long_description = "These are the owls"
 [[products]]
-product = "products/barn_owl.md"
+product = "products/barred_owl.md"
 [[products]]
 product = "products/barn_owl.md"
 
